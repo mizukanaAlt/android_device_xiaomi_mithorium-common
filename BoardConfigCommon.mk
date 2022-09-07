@@ -98,6 +98,8 @@ TARGET_KERNEL_CONFIG += \
     vendor/feature/lindroid.config
 endif
 
+$(call soong_config_set,MITHORIUM_KERNEL,DEVICE,$(TARGET_DEVICE))
+
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
