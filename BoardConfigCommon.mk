@@ -100,9 +100,6 @@ endif
 
 $(call soong_config_set,MITHORIUM_KERNEL,DEVICE,$(TARGET_DEVICE))
 
-# ANT
-BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
-
 # Audio
 BOARD_USES_ALSA_AUDIO := true
 USE_XML_AUDIO_POLICY_CONF := 1
