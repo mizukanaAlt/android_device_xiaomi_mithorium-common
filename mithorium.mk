@@ -205,10 +205,8 @@ MITHORIUM_PRODUCT_PACKAGES += \
     charger_led_recovery
 
 # Configstore
-ifeq ($(TARGET_KERNEL_VERSION),4.19)
 MITHORIUM_PRODUCT_PACKAGES += \
     disable_configstore
-endif
 
 # Consumer IR
 ifneq ($(TARGET_HAS_NO_CONSUMERIR),true)
